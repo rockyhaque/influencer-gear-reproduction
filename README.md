@@ -1,3 +1,3 @@
 ## influencer-gear-reproduction
 
-Live Link -> 
+Live Link -> https://rockyhaque.github.io/influencer-gear-reproduction/
