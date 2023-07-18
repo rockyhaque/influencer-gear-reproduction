@@ -20,8 +20,6 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* border: 2px solid red; */
-    /* padding: 20px; */
 }
 
 .nav-title{
@@ -60,8 +58,6 @@ nav img{
 .nav-icon{
     display: flex;
     margin-right: 35px;
-    /* border: 2px solid red; */
-
 }
 
 /* Banner section  */
@@ -168,7 +164,6 @@ font-size: 24px;
  .rating-star img{
     width: 60px;
     height: 60px;
-    /* border: 1px solid red; */
  }
 
  .card-description{
@@ -246,10 +241,6 @@ font-size: 24px;
  .footer-container p{
     padding: 15px 0px;
  }
-
- /* .footer-icon{
-    gap: 15px;
- } */
 
  .footer-icon img{
     width: 30px;

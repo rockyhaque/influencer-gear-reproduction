@@ -47,6 +47,7 @@
 
      .all-card-container{
         grid-template-columns: repeat(1, 1fr);
+        gap: 2px;
      }
 
      .features-info h1,
@@ -65,6 +66,7 @@
      .see-more{
         margin-right: 20px;
      }
+
     
     
 }
