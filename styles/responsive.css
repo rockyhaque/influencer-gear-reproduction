@@ -5,7 +5,7 @@
     }
 
     nav,
-    .banner-container
+    .brand-container
     {
         flex-direction: column;
     }
@@ -21,10 +21,46 @@
         text-align: center;
     }
 
-    .button-area{
+    .banner-container,
+    .features
+    {
+        flex-direction: column-reverse;
+    }
+
+    .prebook-btn{
         width: 50%;
         margin: 0 auto;
     }
+
+    /* .brand-container{
+        width: 50%;
+        margin: 0 auto;
+    } */
+
+    .brand-container{
+        grid-template-columns: repeat(4, 1fr);
+        /* justify-content: space-around; */
+        /* width: 50%; */
+        margin: 0 auto;
+        gap: 10px;
+     }
+
+     .all-card-container{
+        grid-template-columns: repeat(1, 1fr);
+     }
+
+     .features-info h1,
+     .features-info p
+     {
+        text-align: center;
+     }
+
+     .join-btn{
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 15px;
+
+     }
     
     
 }
@@ -36,5 +72,20 @@
     {
         flex-direction: column;
     }
+
+    .brand-container{
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .all-card-container{
+        grid-template-columns: repeat(2, 1fr);
+     }
+
+     .features{
+        gap: 15px;
+     }
+
+
+   
    
 }
